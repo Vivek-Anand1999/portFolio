@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,129 +9,272 @@
 </head>
 
 <body>
-
-  <header>
-    <section id="profile-image" class="visible">
-  <div class="image-wrapper">
-    <img src="Snapchat-947981190.jpg" alt="Vivek Anand" class="profile-pic" />
-  </div>
-</section>
-
-    <h1>Vivek Anand</h1>
-    <p>Java Backend Developer | REST APIs | Spring Boot | Kafka | Microservices</p>
+  <header class="main-header">
+    <div class="resume-topright">
+      <a href="https://bit.ly/VivekResumeSDE" target="_blank" rel="noopener noreferrer" class="download-btn">Download
+        Resume</a>
+    </div>
+    <div class="header-content profile-matrix-bg">
+      <!-- Animated shapes left -->
+      <div class="animated-bg left">
+        <div class="circle"></div>
+        <div class="triangle"></div>
+      </div>
+      <canvas id="hacker-terminal-profile" class="hacker-terminal-canvas profile-canvas"></canvas>
+      <div class="image-wrapper profile-animate">
+        <span class="profile-gradient-border">
+          <img src="Snapchat-947981190.jpg" alt="Vivek Anand" class="profile-pic" />
+        </span>
+      </div>
+      <div class="intro-text profile-dimmed">
+        <h1>Vivek Anand</h1>
+        <p class="subtitle">Java Backend Developer | REST APIs | Spring Boot | Kafka | Microservices</p>
+      </div>
+      <!-- Animated shapes right -->
+      <div class="animated-bg right">
+        <div class="dot"></div>
+      </div>
+    </div>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>I’m a passionate and Confident Backend and Salesforce Lightning Platform Developer with expertise in designing scalable systems and APIs using SOLID principles and Object-Oriented Programming. Proficient in Java, Spring Boot, and microservices, with hands-on experience customizing and developing on the Salesforce Lightning Platform. Committed to delivering secure, high-performance, and well-integrated solutions. Adept at working in fast-paced Agile environments to consistently achieve project goals and drive team success.</p>
-  </section>
+  <main>
+    <section class="about-section">
+      <div class="about-glow-box">
+        <h2><img src="https://img.icons8.com/ios-filled/30/42a5f5/user-male-circle.png" alt="About Icon"
+            class="about-icon"> About Me</h2>
+        <p>Backend Developer with 1+ years of experience building secure APIs and distributed systems in Java and Spring
+          Boot. Strong in microservice design, AWS deployment (EC2, RDS, S3), and integrating external services including
+          AI APIs (e.g., OpenAI). Adept at clean code, secure authentication (JWT), and exploring practical use of AI
+          agents in backend workflows.</p>
+      </div>
+    </section>
 
-  <section>
-    <h2>💼 Professional Experience</h2>
+    <section>
+      <h2>💼 Professional Experience</h2>
+      <div class="card">
+        <h3 style="color:#42a5f5;">SOPHOS - Software Engineer</h3>
+        <p><em>📍 Bangalore | Jan 2024 – July 2024</em></p>
+        <ul>
+          <li>⚙️ Developed automated test scripts using <strong>WebDriver, Groovy</strong>, enhancing test efficiency and
+            reliability.</li>
+          <li>🔐 Integrated <strong>MFA</strong> with on-premise identity providers like <strong>Okta, Azure AD, and
+              LDAP</strong> for secure login.</li>
+          <li>🛠️ Resolved critical <strong>production bugs</strong>, enhancing system stability and user experience.</li>
+          <li>🚀 Built a scalable test automation framework with modular components, streamlining test case creation and
+            execution.</li>
+          <li>💡 Conducted thorough testing (regression, API, functional) to ensure high-quality deliverables.</li>
+          <li>📈 Identified and <strong>reported 25+ bugs</strong>, leading to significant product quality improvements.
+          </li>
+          <li>🧑‍💻 Delivered all milestones on time through Agile — <strong>95% on-time delivery</strong>.</li>
+        </ul>
+      </div>
 
-    <div class="card">
-      <h3 style="color:#42a5f5;">SOPHOS - Software Engineer</h3>
-      <p><em>📍 Bangalore | Jan 2024 – July 2024</em></p>
-      <ul>
-        <li>⚙️ Developed and optimized <strong>10+ backend services</strong> using Java & Spring Boot and <strong>Salesforce Lightning Platform</strong>, improving performance by 30%.</li>
-        <li>🔐 Built secure REST APIs with <strong>Multi-Factor Authentication (MFA)</strong> handling 1,000+ CRUD operations daily.</li>
-        <li>🚀 Automated CI/CD with Jenkins & Docker — <strong>cut deployment time by 50%</strong>.</li>
-        <li>🛠️ Resolved issues using advanced debugging — <strong>reduced resolution time by 75%</strong>.</li>
-        <li>📈 Delivered all milestones on time through Agile — <strong>95% on-time delivery</strong>.</li>
-      </ul>
-    </div>
+      <div class="card">
+        <h3 style="color:#42a5f5;">MasTech Quadgen - Junior Developer (Network Domain)</h3>
+        <p><em>📍 Bangalore | Feb 2023 – July 2023</em></p>
+        <ul>
+          <li>💡 Automated configuration checks using <strong>Cisco CLI, Bash, and C/C++</strong>, reducing manual effort
+            by 30%.</li>
+          <li>📊 Implemented protocol-level programming and <strong>packet processing in C/C++</strong>.</li>
+          <li>📡 Built automation tools for <strong>network device health monitoring</strong>.</li>
+          <li>🔗 Developed REST APIs for logging & network dashboards.</li>
+          <li>🧑‍💻 Used <strong>Git, JIRA, Agile</strong> to collaborate with backend and network teams.</li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="card">
-      <h3 style="color:#42a5f5;">MasTech Quadgen - Junior Developer (Network Domain)</h3>
-      <p><em>📍 Bangalore | Feb 2023 – July 2023</em></p>
-      <ul>
-        <li>💡 Automated configuration checks using <strong>Cisco CLI, Bash, and C/C++</strong>, reducing manual effort by 30%.</li>
-        <li>📊 Implemented protocol-level programming and <strong>packet processing in C/C++</strong>.</li>
-        <li>📡 Built automation tools for <strong>network device health monitoring</strong>.</li>
-        <li>🔗 Developed REST APIs for logging & network dashboards.</li>
-        <li>🧑‍💻 Used <strong>Git, JIRA, Agile</strong> to collaborate with backend and network teams.</li>
-      </ul>
-    </div>
-  </section>
+    <section>
+      <h2>Projects</h2>
+      <div class="card">
+        <h3 style="color:#42a5f5;">Personalized Journal with Sentiment Analysis</h3>
+        <p style="text-decoration:underline; margin-bottom: 0.7em;"><strong>Tech Stack:</strong> Java, Spring Boot,
+          MongoDB Atlas, SLF4J, AWS EC2, S3, OpenAI API</p>
+        <ul style="margin-bottom: 0.7em;">
+          <li style="margin-bottom: 0.5em;">Built a <strong>journaling platform</strong> with basic <strong>emotion
+              detection</strong> and tagging for user entries.</li>
+          <li style="margin-bottom: 0.5em;">Integrated <strong>OpenAI API</strong> to extract <strong>emotional
+              tone</strong> and summarize journal content.</li>
+          <li style="margin-bottom: 0.5em;">Used <strong>EC2</strong> to host backend, <strong>MongoDB Atlas</strong> for
+            data storage, and <strong>S3</strong> for storing media uploads.</li>
+          <li style="margin-bottom: 0.5em;">Designed backend logic to process journal entries via <strong>AI agent-style
+              prompts</strong>, simulating task chaining (e.g., <strong>sentiment → summary → mood scoring</strong>).</li>
+          <li><strong>Increased engagement</strong> by tailoring dashboard insights based on emotional patterns.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color:#42a5f5;">Weather Forecast Aggregator</h3>
+        <p style="text-decoration:underline; margin-bottom: 0.7em;"><strong>Tech Stack:</strong> Java, Spring Boot,
+          MongoDB, OpenWeatherMap API</p>
+        <ul style="margin-bottom: 0.7em;">
+          <li>Aggregated <strong>weather data</strong> from multiple APIs; <strong>reduced response latency by
+              25%</strong>.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color:#42a5f5;">Razorpay Payment Integration System</h3>
+        <p style="text-decoration:underline; margin-bottom: 0.7em;"><strong>Tech Stack:</strong> Java, Spring Boot,
+          MongoDB, Razorpay API</p>
+        <ul style="margin-bottom: 0.7em;">
+          <li>Designed<strong>end-to-end integration</strong>with<strong>Razorpay APIs</strong>to securely manage
+            <strong>online payments</strong> and callbacks.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="color:#42a5f5;">Distributed E-Commerce Platform with Modular Microservices</h3>
+        <p style="text-decoration:underline; margin-bottom: 0.7em;"><strong>Tech Stack:</strong> Java, Spring Boot, Kafka,
+          MongoDB, MySql</p>
+        <ul style="margin-bottom: 0.7em;">
+          <li style="margin-bottom: 0.5em;">Developed <strong>modular backend</strong> with <strong>inventory, order,
+              auth, and notification microservices</strong>.</li>
+          <li>Implemented <strong>OAuth2 & JWT authentication</strong>, ensuring <strong>secure API access</strong> and
+            <strong>user role management</strong>.</li>
+        </ul>
+      </div>
+    </section>
 
-  <section>
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Personalized Journal with Sentiment Analysis</h3>
-      <p>Developed REST API managing 500+ entries; improved accessibility and scalability by 40%.</p>
-      <p><strong>Stack:</strong> Java, Spring Boot, MongoDB, Atlas, SLF4J</p>
-      <a href="https://github.com/Vivek-Anand1999/Journal-App" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Weather Forecast Aggregator</h3>
-      <p>Java app aggregating weather data from APIs; improved response by 25%.</p>
-      <p><strong>Stack:</strong> Java, Spring Boot, OpenWeatherMap, MongoDB</p>
-      <a href="https://github.com/Vivek-Anand1999/WeatherApi" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Real-time Weather Data Streaming</h3>
-      <p>Kafka-based messaging system for 10,000+ users.</p>
-      <p><strong>Stack:</strong> Java, Spring Boot, Kafka, MongoDB, Eureka, Docker</p>
-      <a href="https://github.com/Vivek-Anand1999/WeatherApi" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Distributed E-Commerce Platform</h3>
-      <p>Scalable modular system with secure authentication.</p>
-      <p><strong>Stack:</strong> Java, Spring Boot, Spring Security, RabbitMQ, Docker</p>
-      <a href="https://github.com/Vivek-Anand1999/Distributed-E-Commerce-Platform-with-Modular_Microservice" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-  </section>
+    <section>
+      <h2>🛠️ Skills</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Programming Languages:</strong> Java, Groovy, C++</li>
+          <li><strong>Frameworks:</strong> Spring Boot, Spring Security, JUnit, Mockito, TestNG, Selenium, Maven</li>
+          <li><strong>Databases:</strong> MySQL, MongoDB, Redis</li>
+          <li><strong>DevOps:</strong> Jenkins, Docker, GitHub Actions, SonarQube</li>
+          <li><strong>Networking:</strong> ZTNA, Cisco CLI, Firewalls, Protocol Automation</li>
+          <li><strong>Cloud & Tools:</strong> MongoDB Atlas, AWS (EC2, S3, EBS, ASG), Jira, Git</li>
+          <li><strong>Concepts:</strong> REST APIs, Microservices, CI/CD, Agile, LLD</li>
+          <li><strong>AI Integration:</strong> OpenAI API, prompt design, basic agent workflows (chaining, routing, scoring)</li>
+        </ul>
+      </div>
+    </section>
 
-  <section>
-    <h2>🛠️ Skills</h2>
-    <div class="card">
-      <p><strong>Languages:</strong> <span>Java</span>, <span>Groovy</span>, <span>C++</span></p>
-      <p><strong>Frameworks:</strong> <span>Spring Boot</span>, <span>Selenium</span>, <span>TestNG</span></p>
-      <p><strong>Databases:</strong> <span>MongoDB</span>, <span>SQL</span></p>
-      <p><strong>DevOps:</strong> <span>Jenkins</span>, <span>Docker</span>, <span>JIRA</span></p>
-      <p><strong>Networking:</strong> <span>Cisco</span>, <span>Sophos</span>, <span>ZTNA</span></p>
-    </div>
-  </section>
+    <section>
+      <h2>Contact</h2>
+      <div class="card contact-card">
+        <div class="contact-icons">
+          <a href="https://github.com/Vivek-Anand1999" target="_blank" rel="noopener noreferrer"><img
+              src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub"></a>
+          <a href="https://www.linkedin.com/in/vivek-anand-dev/" target="_blank" rel="noopener noreferrer"><img
+              src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+        </div>
+        <div class="contact-details-row">
+          <span class="contact-detail"><img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email"
+              class="contact-detail-icon"> vivekanand8867@gmail.com</span>
+          <span class="contact-detail"><img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone"
+              class="contact-detail-icon"> +91 8867880136</span>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2>🎓 Education</h2>
-    <div class="card">
-      <p><strong>📍 Jain University</strong><br><em>Bachelor's in Electronics & Communication, 2020–2023</em></p>
-      <p><strong>📍 Oxford Polytechnic</strong><br><em>Diploma in Engineering, 2017–2020</em></p>
-    </div>
-  </section>
-
-  <section>
-    <h2>🏆 Achievements</h2>
-    <div class="card">
-      <ul>
-        <li>🥇 Won 1st prize in College Project Showcase</li>
-        <li>✅ REST API challenge solved on HackerRank</li>
-        <li>🚀 Project selected at DRDO-level initiative</li>
-      </ul>
-    </div>
-  </section>
-
-<section>
-  <h2>Resume</h2>
-  <a href="https://bit.ly/VivekResumeSDE" target="_blank" rel="noopener noreferrer" class="download-btn">Download Resume</a>
-</section>
-
-
-  <section>
-    <h2>Contact</h2>
-    <div class="contact-icons">
-      <a href="https://github.com/Vivek-Anand1999" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub"></a>
-      <a href="https://www.linkedin.com/in/vivek-anand-dev/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
-      <!-- <a href="vivekanand8867@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email"></a>
-      <a href="+918867880136"><img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone"></a> -->
-    </div>
-  </section>
+    <section>
+      <h2>Get in Touch</h2>
+      <form class="contact-form" action="https://formspree.io/f/mldwenyo" method="POST" autocomplete="off">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select Subject</option>
+              <option value="job">Job Opportunity</option>
+              <option value="personal">Personal Message</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="send-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
     © 2025 Vivek. Built with ❤ and Java.
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    // Hacker terminal (matrix rain) animation for left and right
+    function startMatrixRain(canvasId) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let width = canvas.width = 120;
+      let height = canvas.height = 320;
+      const fontSize = 16;
+      const columns = Math.floor(width / fontSize);
+      const chars = '01abcdefghijklmnopqrstuvwxyz#$%&@';
+      const drops = Array(columns).fill(1);
+      function draw() {
+        ctx.fillStyle = 'rgba(10, 20, 40, 0.18)';
+        ctx.fillRect(0, 0, width, height);
+        ctx.font = fontSize + 'px monospace';
+        ctx.fillStyle = '#42a5f5';
+        for (let i = 0; i < drops.length; i++) {
+          const text = chars[Math.floor(Math.random() * chars.length)];
+          ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+          if (drops[i] * fontSize > height && Math.random() > 0.975) {
+            drops[i] = 0;
+          }
+          drops[i]++;
+        }
+      }
+      setInterval(draw, 55);
+    }
+    startMatrixRain('hacker-terminal-left');
+    startMatrixRain('hacker-terminal-right');
+
+    // Matrix rain for profile section
+    function startMatrixRain(canvasId, width, height) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      canvas.width = width;
+      canvas.height = height;
+      const fontSize = 16;
+      const columns = Math.floor(width / fontSize);
+      const chars = '01abcdefghijklmnopqrstuvwxyz#$%&@';
+      const drops = Array(columns).fill(1);
+      function draw() {
+        ctx.fillStyle = 'rgba(10, 20, 40, 0.18)';
+        ctx.fillRect(0, 0, width, height);
+        ctx.font = fontSize + 'px monospace';
+        ctx.fillStyle = '#42a5f5';
+        for (let i = 0; i < drops.length; i++) {
+          const text = chars[Math.floor(Math.random() * chars.length)];
+          ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+          if (drops[i] * fontSize > height && Math.random() > 0.975) {
+            drops[i] = 0;
+          }
+          drops[i]++;
+        }
+      }
+      setInterval(draw, 55);
+    }
+    // Start for profile section (full width of header-content)
+    window.addEventListener('DOMContentLoaded', function() {
+      var profile = document.querySelector('.header-content');
+      if (profile) {
+        var rect = profile.getBoundingClientRect();
+        startMatrixRain('hacker-terminal-profile', rect.width, rect.height);
+      }
+    });
+  </script>
 </body>
+
 </html>
